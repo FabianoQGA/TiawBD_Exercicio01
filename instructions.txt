@@ -1,0 +1,10 @@
+CREATE TABLE alimentos (
+    id serial PRIMARY KEY,
+    nome VARCHAR (100),
+    tipo VARCHAR (10)
+);
+
+INSERT INTO alimentos (id, nome, tipo) VALUES ( 01, 'carne_bovina', 'carne');
+INSERT INTO alimentos (id, nome, tipo) VALUES ( 02, 'cenoura', 'legume');
+
+SELECT * FROM alimentos;
